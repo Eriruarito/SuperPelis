@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="jquery\jquery-3.4.1.min.js"></script>
+    <script src="js/javaScript.js"></script>
+    <script src="js\gestorPeticiones.js"></script>
+    <title>Gestor de pedidos</title>
+</head>
+<body>
+    <div id="divInsert">
+        <div class="tituloInsert">Insertar</div>
+    </div>    
+    <div id="divQuery">
+            <input name="movieTitle" id="movieTitle" type="search" placeholder="titulo">
+            <button onclick="filtro()" id="botonConsultar">Consultar</button>
+            <div id="pelicula">
+            </div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li id="insertar">Insertar</li>
+            <li id="consultar">Consultar</li>
+        </ul>
+    </div>
+</body>
+</html>
